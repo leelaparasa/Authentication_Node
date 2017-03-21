@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.set('view engine','ejs');
 app.use(session({
-    secret:'I Love you Kumar',
+    secret:'I Love coding',
     resave:true,
     saveUninitialized:true
 }));
